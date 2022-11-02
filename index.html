@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation JS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS Variables</header>
+      <a href="#Javascript_and_Java" class="nav-link">Javascript and Java</a>
+      <a href="#Hello_world" class="nav-link">Hello world</a>
+      <a href="#Variables" class="nav-link">Variables</a>
+      <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
+      <a href="#Variable_scope" class="nav-link">Variable scope</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Javascript_and_Java">
+        <header>Javascript and Java</header>
+        <p>
+          JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java
+          expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+        </p>
+
+        <p>
+          In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a
+          prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports
+          functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.
+        </p>
+
+        <p>
+          JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have
+          to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
+        </p>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+        <code>
+          <pre>
+            function greetMe(yourName) { alert("Hello " + yourName); }
+            greetMe("World");</pre
+          >
+        </code>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat officiis deserunt harum tempore nesciunt rem repudiandae, incidunt doloremque ducimus minima eum nostrum, veritatis ex. Quisquam dolor officia ad maiores
+          asperiores numquam aspernatur dolorem quidem facilis ipsam provident eos animi, sunt rem ex aliquid voluptatibus corrupti, optio consequuntur impedit corporis.
+        </p>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, minus! Velit doloribus iste autem sit exercitationem suscipit facilis fugiat consequuntur fugit culpa natus sapiente quo quod rerum ex sequi cumque magni rem, ad
+          perspiciatis temporibus, ab vel praesentium explicabo. Voluptatem sapiente quisquam dolores impedit. Reiciendis perspiciatis cumque cupiditate optio tempore voluptatem nihil tempora eius, natus voluptate aspernatur accusamus error
+          impedit alias eligendi quod ducimus asperiores quaerat quasi quis minus? Eaque pariatur minima deleniti. Numquam molestias illo, asperiores sint voluptatem error.
+        </p>
+      </section>
+
+      <section class="main-section" id="Declaring_variables">
+        <header>Declaring variables</header>
+        <p>With the keyword var. For example,</p>
+        <code>
+          <pre>var x = 42.</pre>
+        </code>
+        <p>With the keyword let. For example,</p>
+        <code>
+          <pre>let y = 13.</pre>
+        </code>
+        <p>By simply assigning it a value. For example,</p>
+        <code>
+          <pre>x = 42.</pre>
+        </code>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sed voluptatibus cum, officia in doloremque praesentium vero aut optio dignissimos, quidem mollitia iste, reiciendis molestias at incidunt commodi distinctio
+          delectus libero corrupti. Quia, fugit reiciendis aliquam minus voluptas explicabo sit ab velit. Voluptate iure dolorum quam incidunt cumque accusantium nemo minus, eligendi dolores doloremque fuga libero quasi unde maxime culpa
+          fugit nobis, eaque, ratione suscipit deserunt? Deleniti, architecto! Unde, provident.
+        </p>
+      </section>
+
+      <section class="main-section" id="Variable_scope">
+        <header>Variable scope</header>
+        <p>
+          JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5,
+          because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
+        </p>
+        <code>
+          <pre>if (true) { var x = 5; } console.log(x); // 5</pre>
+        </code>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus harum numquam consequuntur eligendi cumque ad odio non quia facilis nemo ut reiciendis, nobis doloremque. Exercitationem, delectus reprehenderit doloremque dolorem
+          adipisci culpa neque quas quo sapiente repellendus quod dignissimos odit nisi aliquid sunt ea laudantium sed magnam, ipsa ipsum. Porro atque est ipsum ex non provident mollitia unde molestias voluptate! Molestiae, voluptatem?
+          Asperiores tempora repudiandae sequi dicta quia rem obcaecati unde, labore, culpa vero reprehenderit eligendi in. Nihil impedit rerum, quasi molestiae esse odit temporibus mollitia corporis eaque nisi facilis molestias culpa
+          maxime voluptate laborum? Maiores soluta numquam vel dolores quis.
+        </p>
+        <p>Six data types that are primitives:</p>
+        <ul>
+          <li>Boolean. true and false.</li>
+          <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+          <li>undefined. A top-level property whose value is undefined.</li>
+          <li>Number. 42 or 3.14159.</li>
+          <li>String. "Howdy"</li>
+          <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
